@@ -1,8 +1,8 @@
-package finding;
+package findingsolutions;
 
-public class Test {
+public class FizzBuzz {
 
-	/* Fizz Buzz - Write a program that prints numbers from 1 to 30. But for
+	/* Write a program that prints numbers from 1 to 30. But for
 	 * multiples of 3 print "Fizz" instead of number and "Buzz" for multiples of 5.
 	 * If there are multiples of both, print "FizzBuzz"
 	 */
