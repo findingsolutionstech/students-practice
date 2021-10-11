@@ -20,7 +20,7 @@ public class CollatzConjecture {
 	static void collatzPrintWhileLoop(int num) {
 		System.out.println(num);
 		int i=num;
-		while(i>1) {
+		while(i>1) { //while i is greater than 1 do all this other stuff
 			if(num % 2 == 0 ) {
 				num=num/2;
 		}else if(num % 2 !=0) { //!= not equals
@@ -37,7 +37,7 @@ public class CollatzConjecture {
 	
 	static void collatzPrintForLoop(int num) {
 		for(int i = num;i>1;i=num) {
-			if(num % 2 == 0 ) {
+			if(num % 2 == 0 ) { // == equals
 				num=num/2;
 		}else if(num % 2 !=0) { //!= not equals
 			num=num/3+1;
