@@ -9,7 +9,8 @@ public class Collatz {
 	 */
 	public static void main(String[] args) {
 		
-		//collatzPrintWhileLoop(21);
+		collatzPrintWhileLoop(21);
+		System.out.println();
 		collatzPrintForLoop(21);
 	}
 	
@@ -18,6 +19,7 @@ public class Collatz {
 	// output - void (return nothing)
 	static void collatzPrintWhileLoop(int number) {
 		
+		System.out.println("Printed using a while loop");
 		System.out.println(number);
 		
 		int i = number;
@@ -25,7 +27,7 @@ public class Collatz {
 			
 			if(number % 2 == 0) {  //  ==  equal
 				number = number/2;
-			} else if(number % 2 != 0) { // != not equals
+			} else { // != not equals
 				number = number/3 + 1;
 			}
 			System.out.println(number);
@@ -35,13 +37,14 @@ public class Collatz {
 
 	static void collatzPrintForLoop(int number) {
 		
+		System.out.println("Printed using a for loop");
 		System.out.println(number);
 		
 		for(int i = number; i > 1; i = number) {
 			
 			if(number % 2 == 0) {  //  ==  equal
 				number = number/2;
-			} else if(number % 2 != 0) { // != not equals
+			} else { // != not equals
 				number = number/3 + 1;
 			}
 			System.out.println(number);
