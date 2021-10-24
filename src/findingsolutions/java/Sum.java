@@ -7,6 +7,7 @@ public class Sum {
 		System.out.println("Difference of two numbers " + difference(5,4));
 		System.out.println("Product of two numbers " + product(5,4));
 		System.out.println("Quotient of division of two numbers " + quotient(5,2));
+		System.out.println("Remainder of division of two numbers " + remainder(5,2));
 	}
 
 	// program/method/function that takes 2 numbers and returns their sum (+)
@@ -34,4 +35,7 @@ public class Sum {
 	/* function that takes 2 numbers as input and returns the remainder of their division
 	* (% - modulus operator)
 	*/ 
+	public static int remainder(int a, int b) {
+		return a%b;
+	}
 }
