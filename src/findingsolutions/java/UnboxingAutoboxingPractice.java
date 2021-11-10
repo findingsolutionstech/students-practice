@@ -9,12 +9,19 @@ public class UnboxingAutoboxingPractice {
 
 		/*
 		 * conversion of primitive data type (like int) to object wrapper type (like
-		 * Integer)
+		 * Integer) is called autoboxing
 		 */
 		List<Integer> listOfNumbers = new ArrayList<>();
 		for (int i = 1; i < 50; i++) {
 			listOfNumbers.add(i); // equivalent to doing listOfNumbers.add(Integer.valueOf(i));
 		}
+
+		/*
+		 * conversion of object wrapper type (like Integer) to primitive type (like int)
+		 * is called unboxing
+		 */
+		Integer num = -8;
+		printNum(num);
 
 		/*
 		 * below won't work as Collections expect object wrapper type not primitives
@@ -23,12 +30,6 @@ public class UnboxingAutoboxingPractice {
 		 */
 		int[] array = {};
 		Integer[] array2 = {};
-
-		/*
-		 * conversion of object wrapper type (like Integer) to primitive type (like int)
-		 */
-		Integer num = -8;
-		printNum(num);
 	}
 
 	public static void printNum(int num) {
