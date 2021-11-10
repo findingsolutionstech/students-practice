@@ -10,6 +10,12 @@ public class Polymorphism {
 		Animal cat=new Cat();  //cat object
 		
 		cat.noiseTheAnimalMakes();
+		
+		
+		
+		
+		
+		
 	}
 
 }
