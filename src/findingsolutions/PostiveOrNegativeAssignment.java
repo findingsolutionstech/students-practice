@@ -14,4 +14,19 @@ public class PostiveOrNegativeAssignment {
 		}	
 	
 	}
-}
+
+	
+	public static void PositiveOrNegativeAssignmentIf(int num) {
+		if(num>0) {
+			System.out.println("the number is positive");
+		}else {
+			System.out.println("The number is negative");
+		}
+		
+	}
+	
+	
+		
+	}
+	
+	
