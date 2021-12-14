@@ -2,13 +2,14 @@ package dogs;
 
 public class Dogs {
 	
-	public status void main (String[] args) {
+	public static void main (String[] args) {
 	
-	for(int i = 1; i<= 30; i++) {
-	System.out.println(i);}
+	int i;
+	for (i = 0; i<= 30; i++) 
 	
-	}
+	System.out.println("Fizz");
 	
 	
 	}
 }
+]
