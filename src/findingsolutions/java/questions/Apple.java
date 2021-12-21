@@ -4,6 +4,7 @@ public class Apple extends Fruit {
 
 	@Override
 	String printColor(String color) {
-		return color;
+	  System.out.println("printing from Apple");
+	  return color;
 	}
 }
