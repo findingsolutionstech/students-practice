@@ -8,7 +8,7 @@ public class VariableConcept {
     
     int num = 7;
     num += 3; // num = num + 3
-    System.out.println(num);
+    System.out.println(num);      // local variable takes precedent over global one so this results in 10 not 5
     
     int a = 3;
     callMe(a);
@@ -17,7 +17,7 @@ public class VariableConcept {
   
   public static void callMe(int a) {
     a++;
-    System.out.println("Value of a within method " + a);
+    System.out.println("Value of a within method " + a);  // again this a variable is local to this method
   }
 
 }
