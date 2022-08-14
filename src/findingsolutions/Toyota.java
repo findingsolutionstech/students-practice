@@ -1,5 +1,7 @@
 package findingsolutions;
 
+
+//Toyota subclass
 public class Toyota extends Car{
 
 	@Override

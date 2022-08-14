@@ -1,64 +1,74 @@
 package findingsolutions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class CollectionStart {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		//printing concatenation
+		
+		// printing concatenation
 		int add = 2 + 3;
 		System.out.println("my addition result: " + add);
-		
-		
-		//array - static size
-		int[] numsLong = new int[3];
-		numsLong[0] = 1;
-		numsLong[1] = 2;
-		numsLong[2] = 4;
-		
-		int[] nums = new int[] { 1, 2, 4 };
-		int[] numsShort = { 1, 2, 4 };
-		System.out.println("Size of array: " + numsShort.length);
 
+		/* array - static size */
+		String[] arrayOfFruits = new String[3];
+		arrayOfFruits[0] = "apple";
+		arrayOfFruits[1] = "orange";
+		arrayOfFruits[2] = "pear";
 		
-		// List - dynamic array, not static size
-		List numList = new ArrayList<String>();
-		System.out.println("Size of my list: " + numList.size());
-		
-		
+		String[] arrayOfFruitsShortenedForm = new String[] { "apple", "orange", "pear"};
+		String[] arrayOfFruitsShortestForm = { "apple", "orange", "pear"};
+		System.out.println("Size of my array: " + arrayOfFruitsShortestForm.length);
+		for(int i = 0; i < arrayOfFruitsShortestForm.length; i++) {
+			System.out.println(arrayOfFruits[i]);
+		}
+				
+		/* List - dynamic array, not static size */
 		System.out.println();
-		System.out.println("");
-		for(int i = 0; i < .size()); i++ {
-			System.out.println( .get(i));
+		List<String> listOfFruits = new ArrayList<String>();
+		listOfFruits.add("apple");
+		listOfFruits.add("orange");
+		listOfFruits.add("apple");
+		System.out.println("Size of my list: " + listOfFruits.size());
+	
+		System.out.println("Printing my list of fruit basket");
+		for(int i = 0; i < listOfFruits.size(); i++) {
+			System.out.println(listOfFruits.get(i));
 		}
 		
-		// Set - similar to a list but doesn't take duplicate
-		System.out.println();
-		Set set = new HashSet<String>();
-		.add();
-		.add();
-		.add();
-		System.out.println("Size of my set: " + .size());
+		// removing from a list
+		listOfFruits.remove(2);
+		System.out.println("Size of my list after removing the fruit in 2th place/ third place: " + listOfFruits.size());
 		
+		/* Set - similar to a list but doesn't take duplicates */
 		System.out.println();
-		Iterator iter = .iterator();
+		Set<String> setOfFruits = new HashSet<String>();
+		setOfFruits.add("apple");
+		setOfFruits.add("apple");
+		setOfFruits.add("orange");
+		System.out.println("Size of my set: " + setOfFruits.size());
+		
+		System.out.println("Printing my set of fruit basket");
+		Iterator iter = setOfFruits.iterator();
 		while(iter.hasNext()) {
 			System.out.println(iter.next());
 		}
 		
-		// Map - is like a dictionary
+		/* Map - like a dictionary, key-value pair */
 		System.out.println();
-		Map mapOf = new HashMap<String, Integer>();
-		mapOf .put(iter, 1);
-		mapOf .put(iter, 2);
-		System.out.println("Size of my map: " + mapOf.size());
+		Map mapOfFruits = new HashMap<String, Integer>();
+		mapOfFruits.put("apple", 1);
+		mapOfFruits.put("orange", 2);
+		System.out.println("Size of my map: " + mapOfFruits.size());
 		
-		System.out.print("How many apples do i have ? " + mapOf.get(""));
-		
+		System.out.println("How many apples do I have ? " + mapOfFruits.get("apple"));
+		System.out.println("How many oranges do I have ? " + mapOfFruits.get("orange"));
 	}
 
 }

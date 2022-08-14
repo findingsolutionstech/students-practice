@@ -1,3 +1,4 @@
+package findingsolutions;
 
 public class scoping {
 

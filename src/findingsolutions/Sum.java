@@ -3,7 +3,6 @@ package findingsolutions;
 public class Sum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println("Sum of two number" + sum(3,1));
 		System.out.println("Minus of two number" + minus(10,5));

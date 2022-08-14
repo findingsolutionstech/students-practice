@@ -1,11 +1,12 @@
 package findingsolutions;
 
 
+// this is meant to be a superclass - generic representation of all animals
 public class Animal {
 	
 	/* default constructor - all classes have in java
 	 * no need to declare explicitly
-	 * a constructor function cant have a return type
+	 * a constructor function can't have a return type
 	 */
 
 	public Animal() {

@@ -1,11 +1,10 @@
 package findingsolutions;
-
+//Write a program that determines if a number is positive or negative
 public class PositiveOrNegativePractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		int number=109;
+		int number= 0;
 		
 		
 		if(number > 0)

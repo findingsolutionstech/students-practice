@@ -9,11 +9,10 @@ public class ListPractice {
 		
 		// create a List of Booleans and add three booleans in that list
 		
-		List<Boolean> booleanList = new ArrayList<>();
-		booleanList.add(false);
-		booleanList.add(false);
-		booleanList.add(true);
-		
+		List<Boolean> boolList = new ArrayList<>();
+		boolList.add(false);
+		boolList.add(false);
+		boolList.add(true);
 		
 	}
 

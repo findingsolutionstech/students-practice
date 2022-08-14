@@ -9,9 +9,9 @@ public class polymorphismPractice {
 		Animal animal = new Animal();
 		animal.noiseTheAnimalMakes();
 		
-		Animal cat = new Cat(); // Cat object
+		Animal cat = new Cat("Bobby"); // Cat object
 		cat.noiseTheAnimalMakes();
 		
-		System.out.println 
+		System.out.println(); 
 	}
 }

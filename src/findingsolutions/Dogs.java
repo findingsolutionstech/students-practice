@@ -1,4 +1,4 @@
-package dogs;
+package findingsolutions;
 
 public class Dogs {
 	
@@ -12,4 +12,3 @@ public class Dogs {
 	
 	}
 }
-]

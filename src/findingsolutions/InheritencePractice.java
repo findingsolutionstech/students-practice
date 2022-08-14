@@ -1,7 +1,4 @@
-import findingsolutions.Apple;
-import findingsolutions.Banana;
-import findingsolutions.Fruit;
-
+package findingsolutions;
 public class InheritencePractice {
 
 	public static void main(String[] args) {

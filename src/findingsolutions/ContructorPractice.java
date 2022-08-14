@@ -12,12 +12,16 @@ public class ContructorPractice {
 		//constants use case
 		System.out.println(URL);
 		
+		//variable
 		String url = "mercurytour.com";
 		url = "google.com";
 		url = "amazon.com";
 		System.out.println(url);
 		
 		int i = 5;
+		int j = 0;
+		j++;
+		i--; // i = i - i;
 		System.out.println(i);
 		
 	}

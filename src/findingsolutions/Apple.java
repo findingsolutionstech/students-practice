@@ -1,7 +1,9 @@
 package findingsolutions;
 
 public class Apple extends Fruit {
-	@Override
+	
+	
+	
 	public String printColor() {
 	       return "red";
 	 }
@@ -9,6 +11,8 @@ public class Apple extends Fruit {
 	
 	@Override
 	public String printColor(String color) {
+		System.out.println("printing from Apple");
+		
 		return color;
 	}
 }
